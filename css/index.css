@@ -134,3 +134,98 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+
+/*500px mobile design*/
+@media(max-width: 500px){
+    nav{
+        width:50%;
+        justify-content:space-between;
+        font-size: 2rem;
+        margin-top:6%;
+    }
+    nav a{
+        color:#626262;
+        font-size: 2rem;
+    }
+    nav span{
+        border-left:2px solid #626262;
+        height: 2.4rem;
+    
+    }
+    .bordered{
+        font-weight: 200;
+    }
+    .home{
+        font-weight: bold;
+    }
+
+    /*hero-image*/
+    .title-container div {	
+        width:100%;
+        display:flex;
+        margin: 6% 0 2% 0;
+        font-size: 1rem;
+    }	
+
+    h1{
+        font-size:4rem;
+        font-weight: bold;
+        margin-top:10%;
+        line-height: 1.3;
+    }
+    .title-container div:hover {	
+        opacity: 80%;	
+    }	
+
+    button{
+        padding:1% 4%;
+        font-size: 1.2rem;
+        border-radius:3px;
+        border: none;
+        color: #626262;
+        background-color: white;
+        font-weight: 100;
+    }
+
+
+     /*flexing images in middle*/
+
+    .artists-container{
+        flex-direction:column;
+        align-items: center;
+        background-position: center;
+        align-content: center;
+        width:100%;
+        height: 60%;
+        margin-top: 2%;
+    }
+    
+    .artist{
+        width:60%;
+        text-align:center;
+        background-position: center;
+    }
+    .artist img{
+        width:100%;
+        height: 40%;
+        background-position: center;
+        margin-bottom: 5%;
+    }
+    .bio{
+        font-size:1.3rem;
+        line-height: 1.3;
+        margin-top: 5%;	
+        margin-bottom: 15%;
+        text-align: center;
+        
+        
+       
+        
+    }
+    .artist a{
+        font-size: 2rem;
+    }
+    
+
+}
